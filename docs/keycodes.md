@@ -211,13 +211,15 @@ See also: [Basic Keycodes](keycodes_basic)
 |`KC_ASSISTANT`          |`KC_ASST`                      |Launch Context-Aware Assistant         |✔            |             |                 |
 |`KC_MISSION_CONTROL`    |`KC_MCTL`                      |Open Mission Control                   |             |✔            |                 |
 |`KC_LAUNCHPAD`          |`KC_LPAD`                      |Open Launchpad                         |             |✔            |                 |
+|`KC_GLOBE`              |`KC_GLB`                       |Apple Globe Key<sup>7</sup>            |             |✔            |                 |
 
 <sup>1. The Linux kernel HID driver recognizes [nearly all keycodes](https://github.com/torvalds/linux/blob/master/drivers/hid/hid-input.c), but the default bindings depend on the DE/WM.</sup><br/>
 <sup>2. Treated as F13-F15.</sup><br/>
 <sup>3. Must be held for about three seconds, and will display a prompt instead.</sup><br/>
 <sup>4. Holding Shift+Option allows for finer control of volume level.</sup><br/>
 <sup>5. Skips the entire track in iTunes when tapped, seeks within the current track when held.</sup><br/>
-<sup>6. WMP does not recognize the Rewind key, but both alter playback speed in VLC.</sup>
+<sup>6. WMP does not recognize the Rewind key, but both alter playback speed in VLC.</sup><br/>
+<sup>7. The Globe key must be explicitly enabled in `rules.mk` by adding `GLOBE_KEY_ENABLE=yes`. If tapped once it will bring up the emoji picker and has other functions in combination with other keys.</sup>
 
 ## Quantum Keycodes {#quantum-keycodes}
 
