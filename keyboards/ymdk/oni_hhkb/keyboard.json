@@ -28,8 +28,7 @@
     "processor": "atmega32u4",
     "qmk": {
         "locking": {
-            "enabled": true,
-            "resync": false
+            "enabled": true
         }
     },
     "rgb_matrix": {
