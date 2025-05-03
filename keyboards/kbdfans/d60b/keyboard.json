@@ -2,7 +2,7 @@
     "keyboard_name": "D60_B",
     "maintainer": "chrisgve",
     "manufacturer": "KBDfans",
-    "bootloader": "caterina",
+    "bootloader": "atmel-dfu",
     "processor": "atmega32u4",
     "build": {
         "lto": true
